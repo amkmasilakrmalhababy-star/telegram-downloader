@@ -7,7 +7,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, FSInputFil
 from concurrent.futures import ThreadPoolExecutor
 
 # ضع توكن البوت هنا أو من متغير بيئي
-TOKEN = os.getenv("TOKEN") or "PUT_YOUR_TOKEN_HERE"
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
